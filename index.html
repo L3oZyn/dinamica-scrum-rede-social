@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Alunos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="informacoes.html">
+</head>
+<body>
+    <a href="informacoes.html">Informações</a>
+    <h1>Cadastro de Alunos</h1>
+    <form action="/salvar_aluno" method="POST">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="idade">Idade:</label><br>
+        <input type="number" id="idade" name="idade" required><br><br>
+
+        <label for="serie">Série:</label><br>
+        <input type="text" id="serie" name="serie" required><br><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+    <br>
+    <h1>Informações do Colégio</h1>
+    <p>Nome: Colégio Exemplo</p>
+    <p>Endereço: Rua Exemplo, 123 - Cidade Exemplo</p>
+    <p>Telefone: (00) 1234-5678</p>
+    <p>Email: exemplo@colegio.com</p>
+</body>informacoes.html
+</html>
